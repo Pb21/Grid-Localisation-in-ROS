@@ -1,0 +1,4 @@
+<launch>
+	<node name="myRobot" pkg="lab3" type="bag.py" respawn="false" output="screen" />
+	<node pkg="rviz" type="rviz" name="rviz"  args="-d $(find lab3)/rvizconfig/lab3.rviz "/>
+</launch>

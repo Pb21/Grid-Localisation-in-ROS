@@ -1,0 +1,10 @@
+#from hdng to line
+
+targetA = 30
+sourceA = 216
+
+
+a = targetA - sourceA
+a = (a + 180) % 360 - 180
+
+print a

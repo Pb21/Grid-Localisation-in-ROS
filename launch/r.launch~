@@ -1,0 +1,4 @@
+<launch>
+	<node name="myRobot" pkg="lab3" type="bag.py" respawn="false" output="screen" />
+	
+</launch>
